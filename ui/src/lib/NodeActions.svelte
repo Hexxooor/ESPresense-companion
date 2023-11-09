@@ -76,7 +76,7 @@
 	{/if}
 
 	{#if row.telemetry?.ip}
-		<a href="http://{row.telemetry?.ip}" target="_blank" class="btn btn-sm variant-filled">
+		<a href="http://{row.telemetry?.ip/ui}" target="_blank" class="btn btn-sm variant-filled">
 			<span>Visit</span>
 			<span><img class="w-4" src={link} alt="External Link" /></span>
 		</a>
